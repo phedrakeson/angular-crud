@@ -1,4 +1,4 @@
-# Weather App
+# Angular CRUD
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/phedrakeson/angular-crud?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/phedrakeson/angular-crud?style=for-the-badge)
