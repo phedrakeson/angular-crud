@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.title-group {
+  padding-left: 25px;
+}
+
+.title-group i {
+  padding-right: 10px;
+}
