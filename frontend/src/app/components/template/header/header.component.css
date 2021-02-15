@@ -1,7 +1,6 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header a {
@@ -10,6 +9,11 @@
   padding: 5px;
   display: flex;
   align-items: center;
+  color: #000;
+}
+
+.header .logo {
+  margin-right: 90px;
 }
 
 .title-group {
