@@ -13,6 +13,9 @@ import { MatListModule } from '@angular/material/list'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormsModule } from '@angular/forms'
+import { MatInputModule } from '@angular/material/input'
+import { MatFormFieldModule } from '@angular/material/form-field'
 
 
 import { FooterComponent } from './components/template/footer/footer.component';
@@ -45,7 +48,10 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

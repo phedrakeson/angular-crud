@@ -14,10 +14,11 @@ export class ProductService {
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
   showMessage(msg: string): void {
-    this.snackBar.open(msg, 'X', {
+    this.snackBar.open(msg, '', {
       duration: 3000,
       horizontalPosition: 'right',
-      verticalPosition: 'top'
+      verticalPosition: 'top',
+      panelClass: ['snackbar']
     });
   }
 

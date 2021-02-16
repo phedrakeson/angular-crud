@@ -2,3 +2,18 @@
   background: #3f51b5;
   color: #fff;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  font-size: 1.6rem;
+}
+
+button {
+  margin-top: 20px;
+}
+
+button + button {
+  margin-left: 10px;
+}

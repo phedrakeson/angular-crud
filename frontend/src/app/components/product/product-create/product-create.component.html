@@ -1,3 +1,17 @@
-<p>product-create works!</p>
-<button class="saveBtn" mat-raised-button (click)="createProduct()">Salvar</button>
-<button mat-raised-button (click)="cancel()">Cancelar</button>
+<mat-card>
+  <mat-card-title>
+    Novo Produto
+  </mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Nome" autocomplete="off" [(ngModel)]="product.name" name="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Preço" autocomplete="off"[(ngModel)]="product.price" name="price">
+    </mat-form-field>
+  </form>
+
+  <button class="saveBtn" mat-raised-button (click)="createProduct()">Salvar</button>
+  <button mat-raised-button (click)="cancel()">Cancelar</button>
+  </mat-card>
