@@ -23,7 +23,7 @@ export class ProductService {
   }
 
   create(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.baseUrl, product)
+    return this.http.post<Product>(this.baseUrl, product);
   }
 
 }
