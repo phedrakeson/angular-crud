@@ -6,11 +6,6 @@
       "price": 2.1
     },
     {
-      "id": 2,
-      "name": "Mac Pro",
-      "price": 12000
-    },
-    {
       "id": 3,
       "name": "Samsung S20",
       "price": 5000
@@ -19,6 +14,11 @@
       "name": "Cadeira Gamer",
       "price": 2500,
       "id": 4
+    },
+    {
+      "name": "Camiseta Rocketseat",
+      "price": 150,
+      "id": 5
     }
   ]
 }
