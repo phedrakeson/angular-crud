@@ -43,4 +43,4 @@ Acesse a porta em que foi inicializado o projeto:
 http://localhost:4200/
 ```
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
