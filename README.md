@@ -14,15 +14,33 @@
 
 Para usar o CRUD, siga estas etapas:
 
-Inicie o servidor do repositório com o seguinte comando:
+Primeiro instale todas as dependencias do projeto para que funcione da forma correta com o seguinte comando:
+
 ```
+npm i
+```
+
+Inicie o servidor do backend em Json Server com o seguinte comando:
+
+```
+cd backend
 npm start
 ```
 
-Acesse a porta em que o servidor foi aberto.
+Acesse a porta em que a API foi aberta.
 ```
-localhost:3001
+localhost:3001/products
 ```
 
+Inicie o servidor do frontend em Angular com o seguinte comando:
+```
+cd frontend
+npm start
+```
+
+Acesse a porta em que foi inicializado o projeto:
+```
+http://localhost:4200/
+```
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
