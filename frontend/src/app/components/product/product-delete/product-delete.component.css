@@ -3,6 +3,7 @@ form {
   flex-direction: column;
   max-width: 300px;
   font-size: 1.6rem;
+  margin-top: 20px;
 }
 
 button {
