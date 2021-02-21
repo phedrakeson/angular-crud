@@ -28,6 +28,6 @@ body {
 .snackbar {
   background: #3f51b5;
   color: #fff;
-  height: 80px;
+  padding: 20px;
   font-size: 1.6rem;
 }
