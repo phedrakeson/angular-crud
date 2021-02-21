@@ -14,6 +14,16 @@
       "name": "Camiseta Rocketseat",
       "price": 150,
       "id": 5
+    },
+    {
+      "name": "Clean Code EBook",
+      "price": 50,
+      "id": 6
+    },
+    {
+      "name": "Notebook Dell i7",
+      "price": 10000,
+      "id": 7
     }
   ]
 }

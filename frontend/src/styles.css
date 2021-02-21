@@ -26,8 +26,15 @@ body {
 }
 
 .snackbar {
-  background: #3f51b5;
+  background: #28a745;
   color: #fff;
+  padding: 20px;
+  font-size: 1.6rem;
+}
+
+.snackbar-error {
+  background: #e35e6b;
+  color: white;
   padding: 20px;
   font-size: 1.6rem;
 }
